@@ -1,0 +1,71 @@
+* {
+  font-family: fantasy;
+}
+
+body {
+  background-color: #eae9e5;
+}
+
+header {
+  padding: 100px;
+  background-image: url('../img/pexels-scott-webb-1931143.jpg');
+  background-position: bottom;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: #eae9e5;
+  background-attachment: fixed;
+  
+}
+
+header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #ff7477;
+  text-align: center;
+  padding: 10px;
+}
+
+header h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ff7477;
+  text-align: center;
+  margin: 0;
+}
+
+#trending {
+
+}
+
+#trending h2 {
+  color: #450920;
+  margin-left: 10px;
+}
+
+#navbar {
+  list-style-type: none;
+  background-color: #415F3D;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+ul#navbar li {
+  display: inline;
+}
+  
+ul#navbar li a {
+  float: center;
+  text-decoration: none;
+  color: #eae9e5;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 20px;
+}
+
+ul#navbar li a:hover {
+  color: #415F3D;
+  background-color: #eae9e5;
+}
+
